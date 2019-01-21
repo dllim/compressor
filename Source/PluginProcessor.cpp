@@ -155,35 +155,6 @@ void CompressorAudioProcessor::releaseResources()
 	reset();
 }
 
-//void CompressorAudioProcessor::parameterChanged(const String &parameterID, float newValue)
-//{
-//	if (parameterID == Parameters::threshold.toString()) {
-//		*threshold = newValue;
-//		mustUpdateProcessing = true;
-//		return;
-//	}
-//	if (parameterID == Parameters::ratio.toString()) {
-//		*ratio = newValue;
-//		mustUpdateProcessing = true;
-//		return;
-//	}
-//	if (parameterID == Parameters::attack.toString()) {
-//		*attack = newValue;
-//		mustUpdateProcessing = true;
-//		return;
-//	}
-//	if (parameterID == Parameters::release.toString()) {
-//		*release = newValue;
-//		mustUpdateProcessing = true;
-//		return;
-//	}
-//	if (parameterID == Parameters::gain.toString()) {
-//		*gain = newValue;
-//		mustUpdateProcessing = true;
-//		return;
-//	}
-//}
-
 #ifndef JucePlugin_PreferredChannelConfigurations
 bool CompressorAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
